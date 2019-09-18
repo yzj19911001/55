@@ -1,0 +1,24 @@
+#ifndef _AVISPECHECK_H_
+#define _AVISPECHECK_H_
+
+#include "JZGlobal.h"
+
+
+void JinBeiCheck(VehicleSet *pVehicle);//½ð±­³µ¼ì²â
+void TruckTailCheck(VehicleSet *pVehicle);//»õ³µ¼ì²â
+void PickUpCheck(VehicleSet *pVehicle);//Æ¤¿¨¼ì²â
+void PickUpFramCal(VehicleSet *pVehicle);//Æ¤¿¨Ö¡¼ì²âËã×Ó
+void SpecialVehCheck(VehicleSet *pVehicle);//ÌØÊâ³µÁ¾¼ì²â
+void SpecialVehCal(VehicleSet *pVehicle);//ÌØÊâ³µÁ¾¼ì²âËã×Ó
+void PickUpTailCheck(VehicleSet *pVehicle);//Æ¤¿¨Î²²¿¼ì²â
+void EnCloseWinCal(VehicleSet *pVehicle);//·â±Õ³µ´°¼ì²âËã×Ó
+void EnCloseWinCheck(VehicleSet *pVehicle);//·â±Õ³µ´°¼ì²â
+void Axle2WinCheckEx(VehicleSet *pVehicle);//µÚ¶þÖá³µ´°¿Í³µ¼ì²â
+
+void EnCloseWinCalEx(VehicleSet *pVehicle);//·â±Õ³µ´°¼ì²âËã×Ó
+void EnCloseWinCheckEx(VehicleSet *pVehicle);//·â±Õ³µ´°¼ì²â
+
+uint8 FramArcCal(int32 *pX,int32 *pZ,uint16 PointCnt, VehicleSet *pVehilceSet);//Ã¿Ö¡»¡¶ÎËã×Ó
+void ArcCheck(ArcInfo *pArcSet);//ÓÍ¹Þ¼ì²â
+
+#endif

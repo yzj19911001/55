@@ -1,0 +1,6 @@
+-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I ..\SRC -I ..\SRC\AppDriver -I ..\SRC\LCD -I ..\SRC\OS -I ..\SRC\Protocol -I ..\SRC\SYSTEM -I ..\SRC\TASK -I ..\SRC\UI -I ..\SRC\Common -I ..\SRC\SD -I ..\SRC\Common -I ..\SRC\Module
+-I d:\Keil_v5\ARM\RV31\INC
+-I d:\Keil_v5\ARM\CMSIS\Include
+-I d:\Keil_v5\ARM\Inc\Philips
+-D__UVISION_VERSION="520" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND
+-o ..\obj\task_jg1.o --omf_browse ..\obj\task_jg1.crf --depend ..\obj\task_jg1.d "..\SRC\Task\Task_JG1.c"

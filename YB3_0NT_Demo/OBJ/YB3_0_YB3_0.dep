@@ -1,0 +1,1405 @@
+Dependencies for Project 'YB3_0', Target 'YB3_0': (DO NOT MODIFY !)
+F (..\SRC\OS\OS_CORE.C)(0x5994036F)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\os_core.o --omf_browse ..\obj\os_core.crf --depend ..\obj\os_core.d)
+I (..\SRC\OS\includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+F (..\SRC\OS\Os_cpu_c.c)(0x52E1D388)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\os_cpu_c.o --omf_browse ..\obj\os_cpu_c.crf --depend ..\obj\os_cpu_c.d)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+F (..\SRC\OS\OS_FLAG.C)(0x52E1D388)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\os_flag.o --omf_browse ..\obj\os_flag.crf --depend ..\obj\os_flag.d)
+I (..\SRC\OS\INCLUDES.H)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+F (..\SRC\OS\OS_MBOX.C)(0x52E1D388)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\os_mbox.o --omf_browse ..\obj\os_mbox.crf --depend ..\obj\os_mbox.d)
+I (..\SRC\OS\includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+F (..\SRC\OS\OS_MUTEX.C)(0x52E1D388)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\os_mutex.o --omf_browse ..\obj\os_mutex.crf --depend ..\obj\os_mutex.d)
+I (..\SRC\OS\includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+F (..\SRC\OS\OS_Q.C)(0x52E1D388)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\os_q.o --omf_browse ..\obj\os_q.crf --depend ..\obj\os_q.d)
+I (..\SRC\OS\includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+F (..\SRC\OS\OS_SEM.C)(0x52E1D388)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\os_sem.o --omf_browse ..\obj\os_sem.crf --depend ..\obj\os_sem.d)
+I (..\SRC\OS\includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+F (..\SRC\OS\OS_TASK.C)(0x52E1D388)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\os_task.o --omf_browse ..\obj\os_task.crf --depend ..\obj\os_task.d)
+I (..\SRC\OS\includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+F (..\SRC\OS\OS_TIME.C)(0x52E1D388)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\os_time.o --omf_browse ..\obj\os_time.crf --depend ..\obj\os_time.d)
+I (..\SRC\OS\includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+F (..\SRC\OS\Os_cpu_a.s)(0x552F22E4)(--cpu ARM926EJ-S -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 514" --pd "__FLASHMODE SETA 1"--list .\os_cpu_a.lst --xref -o ..\obj\os_cpu_a.o --depend ..\obj\os_cpu_a.d)
+F (..\SRC\SYSTEM\main.c)(0x586EF21E)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\SRC\SYSTEM\main.h)(0x52E1D386)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\TASK\WT_Task.h)(0x599E716F)
+I (..\SRC\SD\sdconfig.h)(0x58747143)
+I (..\SRC\SD\sdcommon.h)(0x586EF0FE)
+I (..\SRC\SD\sdhal.h)(0x52E1D388)
+I (..\SRC\SD\sdcrc.h)(0x52E1D386)
+I (..\SRC\SD\sdcmd.h)(0x52E1D386)
+I (..\SRC\SD\sddriver.h)(0x58747BE5)
+I (..\SRC\Common\Common.h)(0x598C35F3)
+I (..\SRC\AppDriver\IRQ.h)(0x58807AA2)
+I (..\SRC\AppDriver\Timer0.h)(0x596C2869)
+I (..\SRC\AppDriver\Uart5.h)(0x59548C52)
+I (..\SRC\AppDriver\I2C1.h)(0x52E1D38E)
+I (..\SRC\AppDriver\I2C2.h)(0x52E1D38E)
+I (..\SRC\AppDriver\DS2460.h)(0x549D1040)
+I (..\SRC\AppDriver\PCF8563.h)(0x52E1D38E)
+I (..\SRC\AppDriver\socket.h)(0x58731CA2)
+I (..\SRC\AppDriver\W5300_Conf.h)(0x54C983D9)
+I (..\SRC\AppDriver\w5300.h)(0x596C2455)
+I (..\SRC\AppDriver\DS18B20.h)(0x565CEDFA)
+F (..\SRC\SYSTEM\target.c)(0x565CF27F)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\target.o --omf_browse ..\obj\target.crf --depend ..\obj\target.d)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\IRQ.h)(0x58807AA2)
+I (..\SRC\AppDriver\Timer0.h)(0x596C2869)
+I (..\SRC\AppDriver\Uart5.h)(0x59548C52)
+I (..\SRC\AppDriver\I2C1.h)(0x52E1D38E)
+I (..\SRC\AppDriver\I2C2.h)(0x52E1D38E)
+I (..\SRC\AppDriver\DS2460.h)(0x549D1040)
+I (..\SRC\AppDriver\PCF8563.h)(0x52E1D38E)
+I (..\SRC\AppDriver\socket.h)(0x58731CA2)
+I (..\SRC\AppDriver\W5300_Conf.h)(0x54C983D9)
+I (..\SRC\AppDriver\w5300.h)(0x596C2455)
+I (..\SRC\AppDriver\DS18B20.h)(0x565CEDFA)
+F (..\SRC\SYSTEM\Startup.s)(0x565CF25F)(--cpu ARM926EJ-S -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 514" --pd "__FLASHMODE SETA 1"--list .\startup.lst --xref -o ..\obj\startup.o --depend ..\obj\startup.d)
+I (..\SRC\SYSTEM\LPC3200.INC)(0x52E1D386)
+F (..\SRC\SYSTEM\vicControl.s)(0x565CF2B2)(--cpu ARM926EJ-S -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 514" --pd "__FLASHMODE SETA 1"--list .\viccontrol.lst --xref -o ..\obj\viccontrol.o --depend ..\obj\viccontrol.d)
+I (..\SRC\SYSTEM\LPC3200.INC)(0x52E1D386)
+F (..\SRC\SYSTEM\config.h)(0x57CCFE76)()
+F (..\SRC\OS\OS_CFG.H)(0x59A8CE56)()
+F (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)()
+F (..\SRC\TASK\DEFConfig.h)(0x59561BA5)()
+F (..\SRC\AppDriver\DS2460.c)(0x549D1033)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\ds2460.o --omf_browse ..\obj\ds2460.crf --depend ..\obj\ds2460.d)
+F (..\SRC\AppDriver\GPIO.c)(0x52E1D38E)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\gpio.o --omf_browse ..\obj\gpio.crf --depend ..\obj\gpio.d)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\SYSTEM\Config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+F (..\SRC\AppDriver\I2C1.c)(0x5618AA85)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\i2c1.o --omf_browse ..\obj\i2c1.crf --depend ..\obj\i2c1.d)
+I (..\SRC\AppDriver\I2C1.h)(0x52E1D38E)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+F (..\SRC\AppDriver\I2C2.c)(0x5618AA93)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\i2c2.o --omf_browse ..\obj\i2c2.crf --depend ..\obj\i2c2.d)
+I (..\SRC\AppDriver\I2C2.h)(0x52E1D38E)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+F (..\SRC\AppDriver\NORFlash.c)(0x53DEE840)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\norflash.o --omf_browse ..\obj\norflash.crf --depend ..\obj\norflash.d)
+I (..\SRC\AppDriver\NORFlash.h)(0x52E1D38E)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+F (..\SRC\AppDriver\PCF8563.c)(0x565CEE75)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\pcf8563.o --omf_browse ..\obj\pcf8563.crf --depend ..\obj\pcf8563.d)
+I (..\SRC\AppDriver\PCF8563.h)(0x52E1D38E)
+I (..\SRC\AppDriver\I2C2.h)(0x52E1D38E)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+F (..\SRC\AppDriver\SHA.c)(0x549D14F1)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\sha.o --omf_browse ..\obj\sha.crf --depend ..\obj\sha.d)
+F (..\SRC\AppDriver\TDC256.c)(0x598BEAF9)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\tdc256.o --omf_browse ..\obj\tdc256.crf --depend ..\obj\tdc256.d)
+I (..\SRC\AppDriver\TDC256.h)(0x599E3B08)
+I (..\SRC\AppDriver\I2C1.h)(0x52E1D38E)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+F (..\SRC\AppDriver\IRQ.c)(0x598BF31B)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\irq.o --omf_browse ..\obj\irq.crf --depend ..\obj\irq.d)
+I (..\SRC\AppDriver\IRQ.h)(0x58807AA2)
+I (..\SRC\AppDriver\Timer0.h)(0x596C2869)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\Uart5.h)(0x59548C52)
+I (..\SRC\AppDriver\I2C1.h)(0x52E1D38E)
+I (..\SRC\AppDriver\I2C2.h)(0x52E1D38E)
+I (..\SRC\AppDriver\DS2460.h)(0x549D1040)
+I (..\SRC\AppDriver\PCF8563.h)(0x52E1D38E)
+I (..\SRC\AppDriver\socket.h)(0x58731CA2)
+I (..\SRC\AppDriver\W5300_Conf.h)(0x54C983D9)
+I (..\SRC\AppDriver\w5300.h)(0x596C2455)
+I (..\SRC\AppDriver\DS18B20.h)(0x565CEDFA)
+I (..\SRC\SD\sdcommon.h)(0x586EF0FE)
+I (..\SRC\SD\sdconfig.h)(0x58747143)
+I (..\SRC\SD\sdhal.h)(0x52E1D388)
+I (..\SRC\SD\sdcrc.h)(0x52E1D386)
+I (..\SRC\SD\sdcmd.h)(0x52E1D386)
+I (..\SRC\SD\sddriver.h)(0x58747BE5)
+I (..\SRC\AppDriver\Uart1.h)(0x59548C9F)
+I (..\SRC\TASK\SysRecovery.h)(0x599E3D31)
+I (..\SRC\AppDriver\Timer1.h)(0x596C2879)
+F (..\SRC\AppDriver\Timer0.c)(0x599E5FCC)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\timer0.o --omf_browse ..\obj\timer0.crf --depend ..\obj\timer0.d)
+I (..\SRC\AppDriver\Timer0.h)(0x596C2869)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\TASK\WT_Task.h)(0x599E716F)
+I (..\SRC\SD\sdconfig.h)(0x58747143)
+I (..\SRC\SD\sdcommon.h)(0x586EF0FE)
+I (..\SRC\SD\sdhal.h)(0x52E1D388)
+I (..\SRC\SD\sdcrc.h)(0x52E1D386)
+I (..\SRC\SD\sdcmd.h)(0x52E1D386)
+I (..\SRC\SD\sddriver.h)(0x58747BE5)
+I (..\SRC\Common\Common.h)(0x598C35F3)
+I (..\SRC\AppDriver\IRQ.h)(0x58807AA2)
+I (..\SRC\AppDriver\Uart5.h)(0x59548C52)
+I (..\SRC\AppDriver\I2C1.h)(0x52E1D38E)
+I (..\SRC\AppDriver\I2C2.h)(0x52E1D38E)
+I (..\SRC\AppDriver\DS2460.h)(0x549D1040)
+I (..\SRC\AppDriver\PCF8563.h)(0x52E1D38E)
+I (..\SRC\AppDriver\socket.h)(0x58731CA2)
+I (..\SRC\AppDriver\W5300_Conf.h)(0x54C983D9)
+I (..\SRC\AppDriver\w5300.h)(0x596C2455)
+I (..\SRC\AppDriver\DS18B20.h)(0x565CEDFA)
+I (..\SRC\TASK\Task_Checknet.h)(0x58807821)
+I (..\SRC\Avi\Avi_AxleCheck.h)(0x599E461E)
+F (..\SRC\AppDriver\Timer1.c)(0x598BEB88)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\timer1.o --omf_browse ..\obj\timer1.crf --depend ..\obj\timer1.d)
+I (..\SRC\AppDriver\Timer1.h)(0x596C2879)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\Common\Common.h)(0x598C35F3)
+I (..\SRC\AppDriver\UART5.h)(0x59548C52)
+I (..\SRC\AppDriver\socket.h)(0x58731CA2)
+I (..\SRC\AppDriver\W5300_Conf.h)(0x54C983D9)
+I (..\SRC\AppDriver\w5300.h)(0x596C2455)
+I (..\SRC\TASK\Task_Checknet.h)(0x58807821)
+F (..\SRC\AppDriver\Uart1.c)(0x599E6E6F)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\uart1.o --omf_browse ..\obj\uart1.crf --depend ..\obj\uart1.d)
+I (..\SRC\AppDriver\Uart1.h)(0x59548C9F)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+F (..\SRC\AppDriver\WDT.c)(0x52E1D390)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\wdt.o --omf_browse ..\obj\wdt.crf --depend ..\obj\wdt.d)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+F (..\SRC\AppDriver\Uart5.c)(0x596C114D)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\uart5.o --omf_browse ..\obj\uart5.crf --depend ..\obj\uart5.d)
+I (..\SRC\AppDriver\UART5.h)(0x59548C52)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+F (..\SRC\AppDriver\DS18B20.c)(0x565CEDF3)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\ds18b20.o --omf_browse ..\obj\ds18b20.crf --depend ..\obj\ds18b20.d)
+I (..\SRC\AppDriver\DS18B20.h)(0x565CEDFA)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+F (..\SRC\AppDriver\ADC.c)(0x57B3F8A6)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\adc.o --omf_browse ..\obj\adc.crf --depend ..\obj\adc.d)
+I (..\SRC\AppDriver\ADC.h)(0x575663E8)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+F (..\SRC\AppDriver\socket.c)(0x598BEB09)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\socket.o --omf_browse ..\obj\socket.crf --depend ..\obj\socket.d)
+I (..\SRC\AppDriver\socket.h)(0x58731CA2)
+I (..\SRC\AppDriver\W5300_Conf.h)(0x54C983D9)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\w5300.h)(0x596C2455)
+F (..\SRC\AppDriver\w5300.c)(0x598BEB6A)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\w5300.o --omf_browse ..\obj\w5300.crf --depend ..\obj\w5300.d)
+I (..\SRC\AppDriver\w5300.h)(0x596C2455)
+I (..\SRC\AppDriver\W5300_Conf.h)(0x54C983D9)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\socket.h)(0x58731CA2)
+I (..\SRC\AppDriver\Timer0.h)(0x596C2869)
+F (..\SRC\Common\Common.c)(0x596C1F53)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\common.o --omf_browse ..\obj\common.crf --depend ..\obj\common.d)
+I (..\SRC\Common\common.h)(0x598C35F3)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+F (..\SRC\Protocol\PrtlProc.c)(0x599FB9D0)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\prtlproc.o --omf_browse ..\obj\prtlproc.crf --depend ..\obj\prtlproc.d)
+I (..\SRC\Protocol\PrtlProc.h)(0x599E89DB)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\SYSTEM\Config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\PCF8563.h)(0x52E1D38E)
+I (..\SRC\AppDriver\Socket.h)(0x58731CA2)
+I (..\SRC\AppDriver\W5300_Conf.h)(0x54C983D9)
+I (..\SRC\AppDriver\w5300.h)(0x596C2455)
+I (..\SRC\AppDriver\TDC256.h)(0x599E3B08)
+I (..\SRC\TASK\SysRecovery.h)(0x599E3D31)
+I (..\SRC\AppDriver\Uart1.h)(0x59548C9F)
+I (..\SRC\AppDriver\Uart5.h)(0x59548C52)
+I (..\SRC\Common\Common.h)(0x598C35F3)
+I (..\SRC\Avi\Avi_MainProc.h)(0x599E87D9)
+I (..\SRC\TASK\Task_JG0.h)(0x599BC03E)
+I (..\SRC\TASK\Task_Checknet.h)(0x58807821)
+F (..\SRC\TASK\WT_Task.c)(0x599E8D5A)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\wt_task.o --omf_browse ..\obj\wt_task.crf --depend ..\obj\wt_task.d)
+I (..\SRC\TASK\WT_Task.h)(0x599E716F)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\SYSTEM\Config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\SD\sdconfig.h)(0x58747143)
+I (..\SRC\SD\sdcommon.h)(0x586EF0FE)
+I (..\SRC\SD\sdhal.h)(0x52E1D388)
+I (..\SRC\SD\sdcrc.h)(0x52E1D386)
+I (..\SRC\SD\sdcmd.h)(0x52E1D386)
+I (..\SRC\SD\sddriver.h)(0x58747BE5)
+I (..\SRC\Common\Common.h)(0x598C35F3)
+I (..\SRC\AppDriver\IRQ.h)(0x58807AA2)
+I (..\SRC\AppDriver\Timer0.h)(0x596C2869)
+I (..\SRC\AppDriver\Uart5.h)(0x59548C52)
+I (..\SRC\AppDriver\I2C1.h)(0x52E1D38E)
+I (..\SRC\AppDriver\I2C2.h)(0x52E1D38E)
+I (..\SRC\AppDriver\DS2460.h)(0x549D1040)
+I (..\SRC\AppDriver\PCF8563.h)(0x52E1D38E)
+I (..\SRC\AppDriver\socket.h)(0x58731CA2)
+I (..\SRC\AppDriver\W5300_Conf.h)(0x54C983D9)
+I (..\SRC\AppDriver\w5300.h)(0x596C2455)
+I (..\SRC\AppDriver\DS18B20.h)(0x565CEDFA)
+I (..\SRC\SD\FAT32APP.h)(0x52E1D386)
+I (..\SRC\AppDriver\Uart1.h)(0x59548C9F)
+I (..\SRC\TASK\Task_TiPo.h)(0x59545B5B)
+I (..\SRC\TASK\Task_Uart5Rec.h)(0x596C0985)
+I (..\SRC\TASK\Task_Uart1Rec.h)(0x596C0C66)
+I (..\SRC\TASK\Task_CheckDir.h)(0x596C3006)
+I (..\SRC\TASK\SysRecovery.h)(0x599E3D31)
+I (..\SRC\TASK\Task_AqcWave.h)(0x599E740D)
+F (..\SRC\Task\Task_TiPo.c)(0x59A8CFE9)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\task_tipo.o --omf_browse ..\obj\task_tipo.crf --depend ..\obj\task_tipo.d)
+I (..\SRC\Task\Task_TiPo.h)(0x59545B5B)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\Task\WT_Task.h)(0x599E716F)
+I (..\SRC\SD\sdconfig.h)(0x58747143)
+I (..\SRC\SD\sdcommon.h)(0x586EF0FE)
+I (..\SRC\SD\sdhal.h)(0x52E1D388)
+I (..\SRC\SD\sdcrc.h)(0x52E1D386)
+I (..\SRC\SD\sdcmd.h)(0x52E1D386)
+I (..\SRC\SD\sddriver.h)(0x58747BE5)
+I (..\SRC\Common\Common.h)(0x598C35F3)
+I (..\SRC\AppDriver\IRQ.h)(0x58807AA2)
+I (..\SRC\AppDriver\Timer0.h)(0x596C2869)
+I (..\SRC\AppDriver\Uart5.h)(0x59548C52)
+I (..\SRC\AppDriver\I2C1.h)(0x52E1D38E)
+I (..\SRC\AppDriver\I2C2.h)(0x52E1D38E)
+I (..\SRC\AppDriver\DS2460.h)(0x549D1040)
+I (..\SRC\AppDriver\PCF8563.h)(0x52E1D38E)
+I (..\SRC\AppDriver\socket.h)(0x58731CA2)
+I (..\SRC\AppDriver\W5300_Conf.h)(0x54C983D9)
+I (..\SRC\AppDriver\w5300.h)(0x596C2455)
+I (..\SRC\AppDriver\DS18B20.h)(0x565CEDFA)
+I (..\SRC\AppDriver\tdc256.h)(0x599E3B08)
+I (..\SRC\Task\Task_Update_App.h)(0x596C0DC1)
+I (..\SRC\AppDriver\Uart1.h)(0x59548C9F)
+I (..\SRC\Protocol\PrtlProc.h)(0x599E89DB)
+I (..\SRC\Task\SysRecovery.h)(0x599E3D31)
+I (..\SRC\Avi\Avi_AxleCheck.h)(0x599E461E)
+F (..\SRC\Task\Task_JG0.c)(0x599F8849)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\task_jg0.o --omf_browse ..\obj\task_jg0.crf --depend ..\obj\task_jg0.d)
+I (..\SRC\Task\Task_JG0.h)(0x599BC03E)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\socket.h)(0x58731CA2)
+I (..\SRC\AppDriver\W5300_Conf.h)(0x54C983D9)
+I (..\SRC\AppDriver\w5300.h)(0x596C2455)
+I (..\SRC\Task\WT_Task.h)(0x599E716F)
+I (..\SRC\SD\sdconfig.h)(0x58747143)
+I (..\SRC\SD\sdcommon.h)(0x586EF0FE)
+I (..\SRC\SD\sdhal.h)(0x52E1D388)
+I (..\SRC\SD\sdcrc.h)(0x52E1D386)
+I (..\SRC\SD\sdcmd.h)(0x52E1D386)
+I (..\SRC\SD\sddriver.h)(0x58747BE5)
+I (..\SRC\Common\Common.h)(0x598C35F3)
+I (..\SRC\AppDriver\IRQ.h)(0x58807AA2)
+I (..\SRC\AppDriver\Timer0.h)(0x596C2869)
+I (..\SRC\AppDriver\Uart5.h)(0x59548C52)
+I (..\SRC\AppDriver\I2C1.h)(0x52E1D38E)
+I (..\SRC\AppDriver\I2C2.h)(0x52E1D38E)
+I (..\SRC\AppDriver\DS2460.h)(0x549D1040)
+I (..\SRC\AppDriver\PCF8563.h)(0x52E1D38E)
+I (..\SRC\AppDriver\DS18B20.h)(0x565CEDFA)
+I (..\SRC\Task\Task_Data_JG.h)(0x598C3543)
+I (..\SRC\Task\Task_CheckDir.h)(0x596C3006)
+F (..\SRC\Task\Task_Data_JG.c)(0x599F8910)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\task_data_jg.o --omf_browse ..\obj\task_data_jg.crf --depend ..\obj\task_data_jg.d)
+I (..\SRC\Task\Task_Data_JG.h)(0x598C3543)
+I (..\SRC\Common\common.h)(0x598C35F3)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\Avi\Avi_MainProc.h)(0x599E87D9)
+I (..\SRC\Task\Task_JG0.h)(0x599BC03E)
+I (..\SRC\Protocol\PrtlProc.h)(0x599E89DB)
+I (..\SRC\Task\Task_CheckDir.h)(0x596C3006)
+I (..\SRC\Task\WT_Task.h)(0x599E716F)
+I (..\SRC\SD\sdconfig.h)(0x58747143)
+I (..\SRC\SD\sdcommon.h)(0x586EF0FE)
+I (..\SRC\SD\sdhal.h)(0x52E1D388)
+I (..\SRC\SD\sdcrc.h)(0x52E1D386)
+I (..\SRC\SD\sdcmd.h)(0x52E1D386)
+I (..\SRC\SD\sddriver.h)(0x58747BE5)
+I (..\SRC\AppDriver\IRQ.h)(0x58807AA2)
+I (..\SRC\AppDriver\Timer0.h)(0x596C2869)
+I (..\SRC\AppDriver\Uart5.h)(0x59548C52)
+I (..\SRC\AppDriver\I2C1.h)(0x52E1D38E)
+I (..\SRC\AppDriver\I2C2.h)(0x52E1D38E)
+I (..\SRC\AppDriver\DS2460.h)(0x549D1040)
+I (..\SRC\AppDriver\PCF8563.h)(0x52E1D38E)
+I (..\SRC\AppDriver\socket.h)(0x58731CA2)
+I (..\SRC\AppDriver\W5300_Conf.h)(0x54C983D9)
+I (..\SRC\AppDriver\w5300.h)(0x596C2455)
+I (..\SRC\AppDriver\DS18B20.h)(0x565CEDFA)
+F (..\SRC\Task\Task_Checknet.c)(0x598BEAAF)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\task_checknet.o --omf_browse ..\obj\task_checknet.crf --depend ..\obj\task_checknet.d)
+I (..\SRC\Task\Task_Checknet.h)(0x58807821)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\Task\WT_Task.h)(0x599E716F)
+I (..\SRC\SD\sdconfig.h)(0x58747143)
+I (..\SRC\SD\sdcommon.h)(0x586EF0FE)
+I (..\SRC\SD\sdhal.h)(0x52E1D388)
+I (..\SRC\SD\sdcrc.h)(0x52E1D386)
+I (..\SRC\SD\sdcmd.h)(0x52E1D386)
+I (..\SRC\SD\sddriver.h)(0x58747BE5)
+I (..\SRC\Common\Common.h)(0x598C35F3)
+I (..\SRC\AppDriver\IRQ.h)(0x58807AA2)
+I (..\SRC\AppDriver\Timer0.h)(0x596C2869)
+I (..\SRC\AppDriver\Uart5.h)(0x59548C52)
+I (..\SRC\AppDriver\I2C1.h)(0x52E1D38E)
+I (..\SRC\AppDriver\I2C2.h)(0x52E1D38E)
+I (..\SRC\AppDriver\DS2460.h)(0x549D1040)
+I (..\SRC\AppDriver\PCF8563.h)(0x52E1D38E)
+I (..\SRC\AppDriver\socket.h)(0x58731CA2)
+I (..\SRC\AppDriver\W5300_Conf.h)(0x54C983D9)
+I (..\SRC\AppDriver\w5300.h)(0x596C2455)
+I (..\SRC\AppDriver\DS18B20.h)(0x565CEDFA)
+F (..\SRC\Task\Task_Uart1Rec.c)(0x599EA057)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\task_uart1rec.o --omf_browse ..\obj\task_uart1rec.crf --depend ..\obj\task_uart1rec.d)
+I (..\SRC\Task\Task_Uart1Rec.h)(0x596C0C66)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\SYSTEM\Config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\Task\Task_Update_App.h)(0x596C0DC1)
+I (..\SRC\Common\Common.h)(0x598C35F3)
+I (..\SRC\AppDriver\Uart1.h)(0x59548C9F)
+I (..\SRC\AppDriver\Uart5.h)(0x59548C52)
+I (..\SRC\Protocol\PrtlProc.h)(0x599E89DB)
+I (..\SRC\AppDriver\PCF8563.h)(0x52E1D38E)
+F (..\SRC\Task\Task_Uart5Rec.c)(0x599EA064)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\task_uart5rec.o --omf_browse ..\obj\task_uart5rec.crf --depend ..\obj\task_uart5rec.d)
+I (..\SRC\Task\Task_Uart5Rec.h)(0x596C0985)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\Task\Task_Update_App.h)(0x596C0DC1)
+I (..\SRC\Common\Common.h)(0x598C35F3)
+I (..\SRC\AppDriver\Uart1.h)(0x59548C9F)
+I (..\SRC\AppDriver\Uart5.h)(0x59548C52)
+I (..\SRC\Protocol\PrtlProc.h)(0x599E89DB)
+I (..\SRC\AppDriver\PCF8563.h)(0x52E1D38E)
+F (..\SRC\Task\Task_Update_App.c)(0x5993ED3A)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\task_update_app.o --omf_browse ..\obj\task_update_app.crf --depend ..\obj\task_update_app.d)
+I (..\SRC\Task\Task_Update_App.h)(0x596C0DC1)
+I (..\SRC\Common\Common.h)(0x598C35F3)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\Uart1.h)(0x59548C9F)
+I (..\SRC\AppDriver\Uart5.h)(0x59548C52)
+I (..\SRC\AppDriver\norflash.h)(0x52E1D38E)
+I (..\SRC\Protocol\PrtlProc.h)(0x599E89DB)
+F (..\SRC\Task\SysRecovery.c)(0x599FB985)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\sysrecovery.o --omf_browse ..\obj\sysrecovery.crf --depend ..\obj\sysrecovery.d)
+I (..\SRC\Task\SysRecovery.h)(0x599E3D31)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\SYSTEM\Config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\TDC256.h)(0x599E3B08)
+I (..\SRC\Common\common.h)(0x598C35F3)
+I (..\SRC\Avi\Avi_AxleCheck.h)(0x599E461E)
+I (..\SRC\AppDriver\PCF8563.h)(0x52E1D38E)
+I (..\SRC\AppDriver\w5300.h)(0x596C2455)
+I (..\SRC\AppDriver\W5300_Conf.h)(0x54C983D9)
+I (..\SRC\Task\WT_Task.h)(0x599E716F)
+I (..\SRC\SD\sdconfig.h)(0x58747143)
+I (..\SRC\SD\sdcommon.h)(0x586EF0FE)
+I (..\SRC\SD\sdhal.h)(0x52E1D388)
+I (..\SRC\SD\sdcrc.h)(0x52E1D386)
+I (..\SRC\SD\sdcmd.h)(0x52E1D386)
+I (..\SRC\SD\sddriver.h)(0x58747BE5)
+I (..\SRC\AppDriver\IRQ.h)(0x58807AA2)
+I (..\SRC\AppDriver\Timer0.h)(0x596C2869)
+I (..\SRC\AppDriver\Uart5.h)(0x59548C52)
+I (..\SRC\AppDriver\I2C1.h)(0x52E1D38E)
+I (..\SRC\AppDriver\I2C2.h)(0x52E1D38E)
+I (..\SRC\AppDriver\DS2460.h)(0x549D1040)
+I (..\SRC\AppDriver\socket.h)(0x58731CA2)
+I (..\SRC\AppDriver\DS18B20.h)(0x565CEDFA)
+I (..\SRC\Avi\Avi_MainProc.h)(0x599E87D9)
+F (..\SRC\Task\Task_CheckDir.c)(0x599E2942)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\task_checkdir.o --omf_browse ..\obj\task_checkdir.crf --depend ..\obj\task_checkdir.d)
+I (..\SRC\Task\Task_CheckDir.h)(0x596C3006)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\SYSTEM\Config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+F (..\SRC\Task\Task_AqcWave.c)(0x599E76A0)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\task_aqcwave.o --omf_browse ..\obj\task_aqcwave.crf --depend ..\obj\task_aqcwave.d)
+I (..\SRC\Task\Task_AqcWave.h)(0x599E740D)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\Common\common.h)(0x598C35F3)
+I (..\SRC\Task\Task_Data_JG.h)(0x598C3543)
+I (..\SRC\AppDriver\Timer0.h)(0x596C2869)
+I (..\SRC\SD\sddriver.h)(0x58747BE5)
+I (..\SRC\SD\sdcommon.h)(0x586EF0FE)
+F (..\SRC\SD\sdcmd.c)(0x52E1D386)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\sdcmd.o --omf_browse ..\obj\sdcmd.crf --depend ..\obj\sdcmd.d)
+I (..\SRC\SD\sdconfig.h)(0x58747143)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\SD\sdcommon.h)(0x586EF0FE)
+I (..\SRC\SD\sdhal.h)(0x52E1D388)
+I (..\SRC\SD\sdcrc.h)(0x52E1D386)
+I (..\SRC\SD\sdcmd.h)(0x52E1D386)
+I (..\SRC\SD\sddriver.h)(0x58747BE5)
+F (..\SRC\SD\sdcrc.c)(0x52E1D386)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\sdcrc.o --omf_browse ..\obj\sdcrc.crf --depend ..\obj\sdcrc.d)
+I (..\SRC\SD\sdconfig.h)(0x58747143)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\SD\sdcommon.h)(0x586EF0FE)
+I (..\SRC\SD\sdhal.h)(0x52E1D388)
+I (..\SRC\SD\sdcrc.h)(0x52E1D386)
+I (..\SRC\SD\sdcmd.h)(0x52E1D386)
+I (..\SRC\SD\sddriver.h)(0x58747BE5)
+F (..\SRC\SD\sddriver.c)(0x595372E5)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\sddriver.o --omf_browse ..\obj\sddriver.crf --depend ..\obj\sddriver.d)
+I (..\SRC\SD\sdconfig.h)(0x58747143)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\SD\sdcommon.h)(0x586EF0FE)
+I (..\SRC\SD\sdhal.h)(0x52E1D388)
+I (..\SRC\SD\sdcrc.h)(0x52E1D386)
+I (..\SRC\SD\sdcmd.h)(0x52E1D386)
+I (..\SRC\SD\sddriver.h)(0x58747BE5)
+I (..\SRC\TASK\WT_Task.h)(0x599E716F)
+I (..\SRC\Common\Common.h)(0x598C35F3)
+I (..\SRC\AppDriver\IRQ.h)(0x58807AA2)
+I (..\SRC\AppDriver\Timer0.h)(0x596C2869)
+I (..\SRC\AppDriver\Uart5.h)(0x59548C52)
+I (..\SRC\AppDriver\I2C1.h)(0x52E1D38E)
+I (..\SRC\AppDriver\I2C2.h)(0x52E1D38E)
+I (..\SRC\AppDriver\DS2460.h)(0x549D1040)
+I (..\SRC\AppDriver\PCF8563.h)(0x52E1D38E)
+I (..\SRC\AppDriver\socket.h)(0x58731CA2)
+I (..\SRC\AppDriver\W5300_Conf.h)(0x54C983D9)
+I (..\SRC\AppDriver\w5300.h)(0x596C2455)
+I (..\SRC\AppDriver\DS18B20.h)(0x565CEDFA)
+F (..\SRC\SD\sdhal.c)(0x586EF1B7)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\sdhal.o --omf_browse ..\obj\sdhal.crf --depend ..\obj\sdhal.d)
+I (..\SRC\SD\sdconfig.h)(0x58747143)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\SD\sdcommon.h)(0x586EF0FE)
+I (..\SRC\SD\sdhal.h)(0x52E1D388)
+I (..\SRC\SD\sdcrc.h)(0x52E1D386)
+I (..\SRC\SD\sdcmd.h)(0x52E1D386)
+I (..\SRC\SD\sddriver.h)(0x58747BE5)
+F (..\SRC\SD\sdspihal.c)(0x549D1CD0)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\sdspihal.o --omf_browse ..\obj\sdspihal.crf --depend ..\obj\sdspihal.d)
+I (..\SRC\SD\sdconfig.h)(0x58747143)
+I (..\SRC\SYSTEM\config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\SD\sdcommon.h)(0x586EF0FE)
+I (..\SRC\SD\sdhal.h)(0x52E1D388)
+I (..\SRC\SD\sdcrc.h)(0x52E1D386)
+I (..\SRC\SD\sdcmd.h)(0x52E1D386)
+I (..\SRC\SD\sddriver.h)(0x58747BE5)
+F (..\SRC\Log\log.txt)(0x589AAB76)()
+F (..\SRC\Avi\Avi_AxleCheck.c)(0x599E476A)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\avi_axlecheck.o --omf_browse ..\obj\avi_axlecheck.crf --depend ..\obj\avi_axlecheck.d)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\Avi\Avi_AxleCheck.h)(0x599E461E)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\SYSTEM\Config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\Avi\Avi_MathProc.h)(0x599BBAE9)
+I (..\SRC\Protocol\PrtlProc.h)(0x599E89DB)
+F (..\SRC\Avi\Avi_Classifier.c)(0x599FACB1)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\avi_classifier.o --omf_browse ..\obj\avi_classifier.crf --depend ..\obj\avi_classifier.d)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\Avi\Avi_Classifier.h)(0x599A931D)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\SYSTEM\Config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\Avi\Avi_FeatureCal.h)(0x599E2E2C)
+I (..\SRC\Avi\Avi_SpeCheck.h)(0x598C2BF4)
+F (..\SRC\Avi\Avi_FeatureCal.c)(0x599F837E)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\avi_featurecal.o --omf_browse ..\obj\avi_featurecal.crf --depend ..\obj\avi_featurecal.d)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\Avi\Avi_FeatureCal.h)(0x599E2E2C)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\SYSTEM\Config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\Avi\Avi_MathProc.h)(0x599BBAE9)
+I (..\SRC\Avi\Avi_SpeCheck.h)(0x598C2BF4)
+I (..\SRC\Avi\Avi_AxleCheck.h)(0x599E461E)
+F (..\SRC\Avi\Avi_MainProc.c)(0x599FC17F)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\avi_mainproc.o --omf_browse ..\obj\avi_mainproc.crf --depend ..\obj\avi_mainproc.d)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\Avi\Avi_MainProc.h)(0x599E87D9)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\SYSTEM\Config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\Avi\Avi_MathProc.h)(0x599BBAE9)
+I (..\SRC\Avi\Avi_AxleCheck.h)(0x599E461E)
+I (..\SRC\Avi\Avi_FeatureCal.h)(0x599E2E2C)
+I (..\SRC\Avi\Avi_Classifier.h)(0x599A931D)
+I (..\SRC\Protocol\PrtlProc.h)(0x599E89DB)
+I (..\SRC\Common\Common.h)(0x598C35F3)
+I (..\SRC\TASK\Task_CheckDir.h)(0x596C3006)
+I (..\SRC\TASK\Task_AqcWave.h)(0x599E740D)
+I (..\SRC\TASK\SysRecovery.h)(0x599E3D31)
+F (..\SRC\Avi\Avi_MathProc.c)(0x599BBB4F)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\avi_mathproc.o --omf_browse ..\obj\avi_mathproc.crf --depend ..\obj\avi_mathproc.d)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\Avi\Avi_MathProc.h)(0x599BBAE9)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\SYSTEM\Config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+F (..\SRC\Avi\Avi_SpeCheck.c)(0x599A9794)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I..\SRC -I..\SRC\AppDriver -I..\SRC\LCD -I..\SRC\OS -I..\SRC\Protocol -I..\SRC\SYSTEM -I..\SRC\TASK -I..\SRC\UI -I..\SRC\Common -I..\SRC\SD -I..\SRC\Common -I..\SRC\Module -I..\SRC\Avi-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="514" -DUSEMODE -DPUBMODE -D__STRG_NOR -D__STRG_SD -D__UCOS -D__STRG_NAND-o ..\obj\avi_specheck.o --omf_browse ..\obj\avi_specheck.crf --depend ..\obj\avi_specheck.d)
+I (..\SRC\Avi\stdafx.h)(0x598C4597)
+I (..\SRC\Avi\Avi_SpeCheck.h)(0x598C2BF4)
+I (..\SRC\Avi\JZGlobal.h)(0x599E39ED)
+I (..\SRC\Avi\JZStructure.h)(0x599FB454)
+I (..\SRC\SYSTEM\Config.h)(0x57CCFE76)
+I (..\SRC\SYSTEM\LPC3200.h)(0x52E1D386)
+I (..\SRC\SYSTEM\target.h)(0x52E1D386)
+I (..\SRC\SYSTEM\vicControl.h)(0x52E1D386)
+I (D:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_sys.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\ctype.h)(0x3BEB19E4)
+I (D:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\setjmp.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\rt_misc.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (D:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+I (..\SRC\TASK\DEFConfig.h)(0x59561BA5)
+I (..\SRC\OS\Includes.h)(0x52E1D388)
+I (..\SRC\OS\os_cpu.h)(0x52E1D388)
+I (..\SRC\OS\os_cfg.h)(0x59A8CE56)
+I (..\SRC\OS\ucos_ii.h)(0x5992B4E3)
+I (..\SRC\AppDriver\GPIO.h)(0x596C2DB9)
+I (..\SRC\AppDriver\WDT.h)(0x58788D14)
+I (..\SRC\Avi\Avi_MathProc.h)(0x599BBAE9)
+F (..\SRC\Avi\Avi_AxleCheck.h)(0x599E461E)()
+F (..\SRC\Avi\Avi_Classifier.h)(0x599A931D)()
+F (..\SRC\Avi\Avi_FeatureCal.h)(0x599E2E2C)()
+F (..\SRC\Avi\Avi_MainProc.h)(0x599E87D9)()
+F (..\SRC\Avi\Avi_MathProc.h)(0x599BBAE9)()
+F (..\SRC\Avi\Avi_SpeCheck.h)(0x598C2BF4)()
+F (..\SRC\Avi\JZGlobal.h)(0x599E39ED)()
+F (..\SRC\Avi\JZStructure.h)(0x599FB454)()
+F (..\SRC\Avi\stdafx.h)(0x598C4597)()

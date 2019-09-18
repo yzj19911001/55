@@ -1,0 +1,504 @@
+ARM Linker, 4.1 [Build 481] [Standard]
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing os_mutex.o(.text), (1400 bytes).
+    Removing os_cpu_a.o(SWIStacks), (128 bytes).
+    Removing ds2460.o(.text), (1648 bytes).
+    Removing ds2460.o(.bss), (148 bytes).
+    Removing keyboard.o(.text), (348 bytes).
+    Removing sha.o(.text), (640 bytes).
+    Removing w5100app.o(.data), (28 bytes).
+    Removing timer1h.o(.text), (152 bytes).
+    Removing spline.o(.text), (2808 bytes).
+    Removing common.o(.text), (308 bytes).
+    Removing task_uart5.o(.bss), (200 bytes).
+    Removing task_jg2.o(.text), (388 bytes).
+    Removing task_jg2.o(.bss), (16 bytes).
+    Removing task_jg2.o(.data), (8 bytes).
+    Removing task_senduart1.o(.text), (168 bytes).
+    Removing task_senduart1.o(.bss), (16 bytes).
+    Removing task_uart5_senddata_new.o(.text), (428 bytes).
+    Removing task_uart5_senddata_new.o(.data), (8 bytes).
+    Removing fw.o(.text), (16 bytes).
+    Removing fw.o(.data), (16 bytes).
+    Removing sdcrc.o(.text), (236 bytes).
+    Removing sdcrc.o(.constdata), (512 bytes).
+
+22 unused section(s) (total 9620 bytes) removed from the image.
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x80000128
+
+  Load Region ROM_LOAD (Base: 0x80000000, Size: 0x00025678, Max: 0xffffffff, ABSOLUTE, COMPRESSED[0x00025218])
+
+    Execution Region ROM_EXEC (Base: 0x80000000, Size: 0x00024d84, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x80000000   0x00000128   Code   RO          384    vectors             startup.o
+    0x80000128   0x00000008   Code   RO         1693  * !!!main             c_5.l(__main.o)(c_5.l)
+    0x80000130   0x0000003c   Code   RO         1957    !!!scatter          c_5.l(__scatter.o)(c_5.l)
+    0x8000016c   0x0000005c   Code   RO         1955    !!dczerorl2         c_5.l(__dczerorl2.o)(c_5.l)
+    0x800001c8   0x00000028   Code   RO         1959    !!handler_copy      c_5.l(__scatter_copy.o)(c_5.l)
+    0x800001f0   0x0000002c   Code   RO         1961    !!handler_zi        c_5.l(__scatter_zi.o)(c_5.l)
+    0x8000021c   0x00000000   Code   RO         1660    .ARM.Collect$$_printf_percent$$00000000  c_5.l(_printf_percent.o)(c_5.l)
+    0x8000021c   0x00000008   Code   RO         1657    .ARM.Collect$$_printf_percent$$00000008  c_5.l(_printf_i.o)(c_5.l)
+    0x80000224   0x00000008   Code   RO         1658    .ARM.Collect$$_printf_percent$$00000009  c_5.l(_printf_d.o)(c_5.l)
+    0x8000022c   0x00000008   Code   RO         1659    .ARM.Collect$$_printf_percent$$0000000A  c_5.l(_printf_u.o)(c_5.l)
+    0x80000234   0x00000008   Code   RO         1656    .ARM.Collect$$_printf_percent$$0000000B  c_5.l(_printf_o.o)(c_5.l)
+    0x8000023c   0x00000008   Code   RO         1655    .ARM.Collect$$_printf_percent$$0000000C  c_5.l(_printf_x.o)(c_5.l)
+    0x80000244   0x0000000c   Code   RO         1768    .ARM.Collect$$_printf_percent$$00000012  c_5.l(_printf_l.o)(c_5.l)
+    0x80000250   0x00000008   Code   RO         1654    .ARM.Collect$$_printf_percent$$00000013  c_5.l(_printf_c.o)(c_5.l)
+    0x80000258   0x00000008   Code   RO         1661    .ARM.Collect$$_printf_percent$$00000015  c_5.l(_printf_lc.o)(c_5.l)
+    0x80000260   0x00000008   Code   RO         1767    .ARM.Collect$$_printf_percent$$00000017  c_5.l(_printf_percent_end.o)(c_5.l)
+    0x80000268   0x00000006   Code   RO         1881    .ARM.Collect$$libinit$$00000000  c_5.l(libinit.o)(c_5.l)
+    0x8000026e   0x00000000   Code   RO         1775    .ARM.Collect$$libinit$$00000006  c_5.l(libinit2.o)(c_5.l)
+    0x8000026e   0x00000000   Code   RO         1777    .ARM.Collect$$libinit$$00000008  c_5.l(libinit2.o)(c_5.l)
+    0x8000026e   0x00000000   Code   RO         1779    .ARM.Collect$$libinit$$0000000A  c_5.l(libinit2.o)(c_5.l)
+    0x8000026e   0x00000006   Code   RO         1780    .ARM.Collect$$libinit$$0000000B  c_5.l(libinit2.o)(c_5.l)
+    0x80000274   0x00000000   Code   RO         1782    .ARM.Collect$$libinit$$0000000D  c_5.l(libinit2.o)(c_5.l)
+    0x80000274   0x0000000c   Code   RO         1783    .ARM.Collect$$libinit$$0000000E  c_5.l(libinit2.o)(c_5.l)
+    0x80000280   0x00000000   Code   RO         1784    .ARM.Collect$$libinit$$0000000F  c_5.l(libinit2.o)(c_5.l)
+    0x80000280   0x00000000   Code   RO         1786    .ARM.Collect$$libinit$$00000011  c_5.l(libinit2.o)(c_5.l)
+    0x80000280   0x00000000   Code   RO         1788    .ARM.Collect$$libinit$$00000013  c_5.l(libinit2.o)(c_5.l)
+    0x80000280   0x00000000   Code   RO         1790    .ARM.Collect$$libinit$$00000015  c_5.l(libinit2.o)(c_5.l)
+    0x80000280   0x00000000   Code   RO         1792    .ARM.Collect$$libinit$$00000017  c_5.l(libinit2.o)(c_5.l)
+    0x80000280   0x00000000   Code   RO         1794    .ARM.Collect$$libinit$$00000019  c_5.l(libinit2.o)(c_5.l)
+    0x80000280   0x00000000   Code   RO         1796    .ARM.Collect$$libinit$$0000001B  c_5.l(libinit2.o)(c_5.l)
+    0x80000280   0x00000000   Code   RO         1798    .ARM.Collect$$libinit$$0000001D  c_5.l(libinit2.o)(c_5.l)
+    0x80000280   0x00000000   Code   RO         1800    .ARM.Collect$$libinit$$0000001F  c_5.l(libinit2.o)(c_5.l)
+    0x80000280   0x00000000   Code   RO         1802    .ARM.Collect$$libinit$$00000021  c_5.l(libinit2.o)(c_5.l)
+    0x80000280   0x00000000   Code   RO         1806    .ARM.Collect$$libinit$$00000028  c_5.l(libinit2.o)(c_5.l)
+    0x80000280   0x00000000   Code   RO         1808    .ARM.Collect$$libinit$$0000002A  c_5.l(libinit2.o)(c_5.l)
+    0x80000280   0x00000000   Code   RO         1810    .ARM.Collect$$libinit$$0000002C  c_5.l(libinit2.o)(c_5.l)
+    0x80000280   0x00000000   Code   RO         1812    .ARM.Collect$$libinit$$0000002E  c_5.l(libinit2.o)(c_5.l)
+    0x80000280   0x00000002   Code   RO         1813    .ARM.Collect$$libinit$$0000002F  c_5.l(libinit2.o)(c_5.l)
+    0x80000282   0x00000002   Code   RO         1919    .ARM.Collect$$libshutdown$$00000000  c_5.l(libshutdown.o)(c_5.l)
+    0x80000284   0x00000000   Code   RO         1924    .ARM.Collect$$libshutdown$$00000003  c_5.l(libshutdown2.o)(c_5.l)
+    0x80000284   0x00000000   Code   RO         1927    .ARM.Collect$$libshutdown$$00000006  c_5.l(libshutdown2.o)(c_5.l)
+    0x80000284   0x00000000   Code   RO         1930    .ARM.Collect$$libshutdown$$00000009  c_5.l(libshutdown2.o)(c_5.l)
+    0x80000284   0x00000000   Code   RO         1932    .ARM.Collect$$libshutdown$$0000000B  c_5.l(libshutdown2.o)(c_5.l)
+    0x80000284   0x00000000   Code   RO         1935    .ARM.Collect$$libshutdown$$0000000E  c_5.l(libshutdown2.o)(c_5.l)
+    0x80000284   0x00000002   Code   RO         1936    .ARM.Collect$$libshutdown$$0000000F  c_5.l(libshutdown2.o)(c_5.l)
+    0x80000286   0x00000002   PAD
+    0x80000288   0x00000000   Code   RO         1749    .ARM.Collect$$rtentry$$00000000  c_5.l(rtentry.o)(c_5.l)
+    0x80000288   0x00000000   Code   RO         1828    .ARM.Collect$$rtentry$$00000002  c_5.l(rtentry2.o)(c_5.l)
+    0x80000288   0x00000008   Code   RO         1843    .ARM.Collect$$rtentry$$00000004  c_5.l(rtentry4.o)(c_5.l)
+    0x80000290   0x00000000   Code   RO         1830    .ARM.Collect$$rtentry$$00000009  c_5.l(rtentry2.o)(c_5.l)
+    0x80000290   0x00000004   Code   RO         1831    .ARM.Collect$$rtentry$$0000000A  c_5.l(rtentry2.o)(c_5.l)
+    0x80000294   0x00000000   Code   RO         1833    .ARM.Collect$$rtentry$$0000000C  c_5.l(rtentry2.o)(c_5.l)
+    0x80000294   0x00000028   Code   RO         1834    .ARM.Collect$$rtentry$$0000000D  c_5.l(rtentry2.o)(c_5.l)
+    0x800002bc   0x00000004   Code   RO         1882    .ARM.Collect$$rtexit$$00000000  c_5.l(rtexit.o)(c_5.l)
+    0x800002c0   0x00000000   Code   RO         1895    .ARM.Collect$$rtexit$$00000002  c_5.l(rtexit2.o)(c_5.l)
+    0x800002c0   0x00000004   Code   RO         1896    .ARM.Collect$$rtexit$$00000003  c_5.l(rtexit2.o)(c_5.l)
+    0x800002c4   0x00000008   Code   RO         1897    .ARM.Collect$$rtexit$$00000004  c_5.l(rtexit2.o)(c_5.l)
+    0x800002cc   0x00000a5c   Code   RO            1    .text               os_core.o
+    0x80000d28   0x00000190   Code   RO           36    .text               os_cpu_c.o
+    0x80000eb8   0x000003f8   Code   RO          155    .text               os_q.o
+    0x800012b0   0x00000248   Code   RO          167    .text               os_sem.o
+    0x800014f8   0x0000029c   Code   RO          179    .text               os_task.o
+    0x80001794   0x000000e8   Code   RO          191    .text               os_time.o
+    0x8000187c   0x0000001c   Code   RO          208    .text               main.o
+    0x80001898   0x00000158   Code   RO          239    .text               target.o
+    0x800019f0   0x0000002c   Code   RO          443    .text               gpio.o
+    0x80001a1c   0x000006f0   Code   RO          458    .text               i2c1.o
+    0x8000210c   0x00000684   Code   RO          484    .text               i2c2.o
+    0x80002790   0x00000598   Code   RO          524    .text               lcdapp.o
+    0x80002d28   0x000003a4   Code   RO          563    .text               nandflash.o
+    0x800030cc   0x000002cc   Code   RO          575    .text               norflash.o
+    0x80003398   0x0000076c   Code   RO          590    .text               pcf8563.o
+    0x80003b04   0x000000a4   Code   RO          623    .text               storageapp.o
+    0x80003ba8   0x00000058   Code   RO          638    .text               tdc256.o
+    0x80003c00   0x0000023c   Code   RO          653    .text               timer0.o
+    0x80003e3c   0x00000450   Code   RO          701    .text               uart2.o
+    0x8000428c   0x00000388   Code   RO          716    .text               uart3.o
+    0x80004614   0x000003f4   Code   RO          734    .text               uart5.o
+    0x80004a08   0x0000006c   Code   RO          753    .text               wdt.o
+    0x80004a74   0x00000288   Code   RO          771    .text               ds18b20.o
+    0x80004cfc   0x00000d2c   Code   RO          786    .text               w5100.o
+    0x80005a28   0x00000790   Code   RO          805    .text               w5100app.o
+    0x800061b8   0x00000058   Code   RO          836    .text               irq.o
+    0x80006210   0x000001d0   Code   RO          870    .text               uart1.o
+    0x800063e0   0x00000638   Code   RO          910    .text               gui_basic.o
+    0x80006a18   0x00000060   Code   RO          922    .text               gui_stockc.o
+    0x80006a78   0x0000061c   Code   RO          941    .text               lcddrive.o
+    0x80007094   0x000003ac   Code   RO          961    .text               loadbit.o
+    0x80007440   0x000002dc   Code   RO         1015    .text               wt_task.o
+    0x8000771c   0x00000238   Code   RO         1106    .text               task_tipo.o
+    0x80007954   0x0000014c   Code   RO         1132    .text               task_uart5.o
+    0x80007aa0   0x00000160   Code   RO         1159    .text               task_jg0.o
+    0x80007c00   0x000003ec   Code   RO         1182    .text               task_jg1.o
+    0x80007fec   0x00000350   Code   RO         1235    .text               task_data_jg.o
+    0x8000833c   0x000004d8   Code   RO         1257    .text               task_uart5_senddata.o
+    0x80008814   0x000000bc   Code   RO         1280    .text               task_sd.o
+    0x800088d0   0x000002e4   Code   RO         1305    .text               task_checknet.o
+    0x80008bb4   0x000014a4   Code   RO         1358    .text               rd_data.o
+    0x8000a058   0x00000288   Code   RO         1389    .text               crc.o
+    0x8000a2e0   0x00000ad8   Code   RO         1456    .text               sdcmd.o
+    0x8000adb8   0x00000c70   Code   RO         1518    .text               sddriver.o
+    0x8000ba28   0x00001104   Code   RO         1538    .text               sdhal.o
+    0x8000cb2c   0x00007ba8   Code   RO         1560    .text               jg.o
+    0x800146d4   0x00000004   Code   RO         1590    .text               c_5.l(use_no_semi.o)(c_5.l)
+    0x800146d8   0x00000028   Code   RO         1594    .text               c_5.l(noretval__2sprintf.o)(c_5.l)
+    0x80014700   0x0000004c   Code   RO         1598    .text               c_5.l(_printf_pad.o)(c_5.l)
+    0x8001474c   0x0000002c   Code   RO         1600    .text               c_5.l(_printf_truncate.o)(c_5.l)
+    0x80014778   0x00000052   Code   RO         1602    .text               c_5.l(_printf_str.o)(c_5.l)
+    0x800147ca   0x00000002   PAD
+    0x800147cc   0x00000008   Ven    RO         1604    .text               c_5.l(_printf_dec.o)(c_5.l)
+    0x800147d4   0x0000006c   Code   RO         1604    .text               c_5.l(_printf_dec.o)(c_5.l)
+    0x80014840   0x000000bc   Code   RO         1606    .text               c_5.l(_printf_wctomb.o)(c_5.l)
+    0x800148fc   0x00000008   Ven    RO         1611    .text               c_5.l(_printf_oct_int.o)(c_5.l)
+    0x80014904   0x00000050   Code   RO         1611    .text               c_5.l(_printf_oct_int.o)(c_5.l)
+    0x80014954   0x00000008   Ven    RO         1618    .text               c_5.l(_printf_hex_int.o)(c_5.l)
+    0x8001495c   0x00000058   Code   RO         1618    .text               c_5.l(_printf_hex_int.o)(c_5.l)
+    0x800149b4   0x00000194   Code   RO         1651    .text               c_5.l(__printf_flags_ss_wp.o)(c_5.l)
+    0x80014b48   0x000000d4   Code   RO         1667    .text               c_5.l(rt_memcpy.o)(c_5.l)
+    0x80014c1c   0x00000064   Code   RO         1669    .text               c_5.l(rt_memcpy_w.o)(c_5.l)
+    0x80014c80   0x00000040   Code   RO         1671    .text               c_5.l(rt_memclr.o)(c_5.l)
+    0x80014cc0   0x00000054   Code   RO         1673    .text               c_5.l(rt_memclr_w.o)(c_5.l)
+    0x80014d14   0x0000017c   Code   RO         1675    .text               c_5.l(aeabi_sdiv.o)(c_5.l)
+    0x80014e90   0x00000006   Code   RO         1691    .text               c_5.l(heapauxi.o)(c_5.l)
+    0x80014e96   0x00000002   PAD
+    0x80014e98   0x00000008   Ven    RO         1755    .text               c_5.l(_rserrno.o)(c_5.l)
+    0x80014ea0   0x00000016   Code   RO         1755    .text               c_5.l(_rserrno.o)(c_5.l)
+    0x80014eb6   0x000000ac   Code   RO         1757    .text               c_5.l(_printf_intcommon.o)(c_5.l)
+    0x80014f62   0x00000002   PAD
+    0x80014f64   0x00000030   Code   RO         1759    .text               c_5.l(_printf_char_common.o)(c_5.l)
+    0x80014f94   0x0000000a   Code   RO         1761    .text               c_5.l(_sputc.o)(c_5.l)
+    0x80014f9e   0x00000002   PAD
+    0x80014fa0   0x00000008   Ven    RO         1763    .text               c_5.l(_printf_char.o)(c_5.l)
+    0x80014fa8   0x0000002e   Code   RO         1763    .text               c_5.l(_printf_char.o)(c_5.l)
+    0x80014fd6   0x00000002   PAD
+    0x80014fd8   0x00000008   Ven    RO         1765    .text               c_5.l(_printf_wchar.o)(c_5.l)
+    0x80014fe0   0x0000002e   Code   RO         1765    .text               c_5.l(_printf_wchar.o)(c_5.l)
+    0x8001500e   0x00000044   Code   RO         1769    .text               c_5.l(_wcrtomb.o)(c_5.l)
+    0x80015052   0x00000002   PAD
+    0x80015054   0x0000002c   Code   RO         1771    .text               c_5.l(rtudiv10.o)(c_5.l)
+    0x80015080   0x00000014   Code   RO         1845    .text               c_5.l(rt_ctype_table.o)(c_5.l)
+    0x80015094   0x00000010   Code   RO         1850    .text               c_5.l(rt_errno_addr_intlibspace.o)(c_5.l)
+    0x800150a4   0x0000000c   Code   RO         1856    .text               c_5.l(libspace.o)(c_5.l)
+    0x800150b0   0x00000060   Code   RO         1859    .text               c_5.l(sys_stackheap_outer.o)(c_5.l)
+    0x80015110   0x00000010   Code   RO         1864    .text               c_5.l(rt_locale_intlibspace.o)(c_5.l)
+    0x80015120   0x0000000c   Code   RO         1869    .text               c_5.l(exit.o)(c_5.l)
+    0x8001512c   0x000000a0   Code   RO         1890    .text               c_5.l(strcmp.o)(c_5.l)
+    0x800151cc   0x00000010   Code   RO         1907    .text               c_5.l(rt_fp_status_addr_intlibspace.o)(c_5.l)
+    0x800151dc   0x00000024   Code   RO         1676    .text_udiv          c_5.l(aeabi_sdiv.o)(c_5.l)
+    0x80015200   0x00000bdc   Code   RO          392    RUNFIRST            viccontrol.o
+    0x80015ddc   0x00000060   Code   RO         1742    i.sqrt              m_5s.l(sqrt.o)(m_5s.l)
+    0x80015e3c   0x00000048   Code   RO         1867    locale$$code        c_5.l(lc_ctype_c.o)(c_5.l)
+    0x80015e84   0x0000021c   Code   RO          203    subr                os_cpu_a.o
+    0x800160a0   0x0000006c   Code   RO         1695    x$fpl$d2f           fz_5s.l(d2f.o)(fz_5s.l)
+    0x8001610c   0x0000001c   Code   RO         1814    x$fpl$dcmpinf       fz_5s.l(dcmpi.o)(fz_5s.l)
+    0x80016128   0x000002d0   Code   RO         1698    x$fpl$ddiv          fz_5s.l(ddiv.o)(fz_5s.l)
+    0x800163f8   0x00000070   Code   RO         1701    x$fpl$dfix          fz_5s.l(dfix.o)(fz_5s.l)
+    0x80016468   0x00000034   Code   RO         1706    x$fpl$dflt          fz_5s.l(dflt_clz.o)(fz_5s.l)
+    0x8001649c   0x0000002c   Code   RO         1705    x$fpl$dfltu         fz_5s.l(dflt_clz.o)(fz_5s.l)
+    0x800164c8   0x00000094   Code   RO         1711    x$fpl$dleqf         fz_5s.l(dleqf.o)(fz_5s.l)
+    0x8001655c   0x00000178   Code   RO         1713    x$fpl$dmul          fz_5s.l(dmul.o)(fz_5s.l)
+    0x800166d4   0x000000b8   Code   RO         1816    x$fpl$dnaninf       fz_5s.l(dnaninf.o)(fz_5s.l)
+    0x8001678c   0x00000010   Code   RO         1818    x$fpl$dretinf       fz_5s.l(dretinf.o)(fz_5s.l)
+    0x8001679c   0x0000008c   Code   RO         1715    x$fpl$drleqf        fz_5s.l(drleqf.o)(fz_5s.l)
+    0x80016828   0x00000200   Code   RO         1820    x$fpl$dsqrt         fz_5s.l(dsqrt_noumaal.o)(fz_5s.l)
+    0x80016a28   0x00000064   Code   RO         1717    x$fpl$f2d           fz_5s.l(f2d.o)(fz_5s.l)
+    0x80016a8c   0x000000c4   Code   RO         1719    x$fpl$fadd          fz_5s.l(faddsub_clz.o)(fz_5s.l)
+    0x80016b50   0x00000044   Code   RO         1729    x$fpl$ffix          fz_5s.l(ffix.o)(fz_5s.l)
+    0x80016b94   0x00000030   Code   RO         1734    x$fpl$fflt          fz_5s.l(fflt_clz.o)(fz_5s.l)
+    0x80016bc4   0x00000028   Code   RO         1733    x$fpl$ffltu         fz_5s.l(fflt_clz.o)(fz_5s.l)
+    0x80016bec   0x00000100   Code   RO         1739    x$fpl$fmul          fz_5s.l(fmul.o)(fz_5s.l)
+    0x80016cec   0x000000a0   Code   RO         1822    x$fpl$fnaninf       fz_5s.l(fnaninf.o)(fz_5s.l)
+    0x80016d8c   0x00000014   Code   RO         1892    x$fpl$fpinit        fz_5s.l(fpinit.o)(fz_5s.l)
+    0x80016da0   0x00000010   Code   RO         1824    x$fpl$fretinf       fz_5s.l(fretinf.o)(fz_5s.l)
+    0x80016db0   0x00000100   Code   RO         1721    x$fpl$fsub          fz_5s.l(faddsub_clz.o)(fz_5s.l)
+    0x80016eb0   0x00000000   Code   RO         1826    x$fpl$usenofp       fz_5s.l(usenofp.o)(fz_5s.l)
+    0x80016eb0   0x00000108   Data   RO            3    .constdata          os_core.o
+    0x80016fb8   0x00000008   Data   RO           37    .constdata          os_cpu_c.o
+    0x80016fc0   0x00000f00   Data   RO          525    .constdata          lcdapp.o
+    0x80017ec0   0x00000008   Data   RO          923    .constdata          gui_stockc.o
+    0x80017ec8   0x00000008   Data   RO          943    .constdata          lcddrive.o
+    0x80017ed0   0x0000c7f6   Data   RO          962    .constdata          loadbit.o
+    0x800246c6   0x00000002   PAD
+    0x800246c8   0x0000000a   Data   RO         1017    .constdata          wt_task.o
+    0x800246d2   0x00000200   Data   RO         1390    .constdata          crc.o
+    0x800248d2   0x00000002   PAD
+    0x800248d4   0x00000058   Data   RO         1520    .constdata          sddriver.o
+    0x8002492c   0x000002d4   Data   RO         1562    .constdata          jg.o
+    0x80024c00   0x00000008   Data   RO         1607    .constdata          c_5.l(_printf_wctomb.o)(c_5.l)
+    0x80024c08   0x00000028   Data   RO         1619    .constdata          c_5.l(_printf_hex_int.o)(c_5.l)
+    0x80024c30   0x00000011   Data   RO         1652    .constdata          c_5.l(__printf_flags_ss_wp.o)(c_5.l)
+    0x80024c41   0x00000003   PAD
+    0x80024c44   0x00000030   Data   RO         1953    Region$$Table       anon$$obj.o
+    0x80024c74   0x00000110   Data   RO         1866    locale$$data        c_5.l(lc_ctype_c.o)(c_5.l)
+
+
+    Execution Region ERAM (Base: 0x80024d84, Size: 0x001f913c, Max: 0xffffffff, ABSOLUTE, COMPRESSED[0x00000494])
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x80024d84   0x00000040   Data   RW            4    .data               os_core.o
+    0x80024dc4   0x00000004   Data   RW           38    .data               os_cpu_c.o
+    0x80024dc8   0x00000060   Data   RW          398    .data               ds2460.o
+    0x80024e28   0x00000018   Data   RW          459    .data               i2c1.o
+    0x80024e40   0x00000018   Data   RW          485    .data               i2c2.o
+    0x80024e58   0x00000002   Data   RW          526    .data               lcdapp.o
+    0x80024e5a   0x00000060   Data   RW          591    .data               pcf8563.o
+    0x80024eba   0x00000002   PAD
+    0x80024ebc   0x00000018   Data   RW          654    .data               timer0.o
+    0x80024ed4   0x00000004   Data   RW          718    .data               uart3.o
+    0x80024ed8   0x00000014   Data   RW          736    .data               uart5.o
+    0x80024eec   0x00000001   Data   RW          754    .data               wdt.o
+    0x80024eed   0x00000003   PAD
+    0x80024ef0   0x00000050   Data   RW          788    .data               w5100.o
+    0x80024f40   0x00000009   Data   RW          872    .data               uart1.o
+    0x80024f49   0x00000002   Data   RW          924    .data               gui_stockc.o
+    0x80024f4b   0x00000002   Data   RW          944    .data               lcddrive.o
+    0x80024f4d   0x00000003   PAD
+    0x80024f50   0x0000021e   Data   RW          998    .data               common.o
+    0x8002516e   0x00000002   PAD
+    0x80025170   0x000000e8   Data   RW         1018    .data               wt_task.o
+    0x80025258   0x00000008   Data   RW         1161    .data               task_jg0.o
+    0x80025260   0x00000008   Data   RW         1184    .data               task_jg1.o
+    0x80025268   0x00000009   Data   RW         1236    .data               task_data_jg.o
+    0x80025271   0x00000003   PAD
+    0x80025274   0x00000008   Data   RW         1258    .data               task_uart5_senddata.o
+    0x8002527c   0x00000008   Data   RW         1282    .data               task_sd.o
+    0x80025284   0x00000004   Data   RW         1323    .data               task_senduart1.o
+    0x80025288   0x000000b9   Data   RW         1360    .data               rd_data.o
+    0x80025341   0x00000200   Data   RW         1391    .data               crc.o
+    0x80025541   0x00000037   Data   RW         1405    .data               cmd.o
+    0x80025578   0x00000004   Data   RW         1540    .data               sdhal.o
+    0x8002557c   0x000000fc   Data   RW         1563    .data               jg.o
+    0x80025678   0x00001600   Zero   RW            2    .bss                os_core.o
+    0x80026c78   0x00000010   Zero   RW          717    .bss                uart3.o
+    0x80026c88   0x00001000   Zero   RW          735    .bss                uart5.o
+    0x80027c88   0x00002710   Zero   RW          787    .bss                w5100.o
+    0x8002a398   0x00002290   Zero   RW          806    .bss                w5100app.o
+    0x8002c628   0x00000040   Zero   RW          871    .bss                uart1.o
+    0x8002c668   0x00000f00   Zero   RW          942    .bss                lcddrive.o
+    0x8002d568   0x001b1c8a   Zero   RW         1016    .bss                wt_task.o
+    0x801df1f2   0x00000002   PAD
+    0x801df1f4   0x00000020   Zero   RW         1160    .bss                task_jg0.o
+    0x801df214   0x00000020   Zero   RW         1183    .bss                task_jg1.o
+    0x801df234   0x00000210   Zero   RW         1281    .bss                task_sd.o
+    0x801df444   0x00000004   PAD
+    0x801df448   0x00001810   Zero   RW         1359    .bss                rd_data.o
+    0x801e0c58   0x00000040   Zero   RW         1519    .bss                sddriver.o
+    0x801e0c98   0x00001038   Zero   RW         1539    .bss                sdhal.o
+    0x801e1cd0   0x0003bec8   Zero   RW         1561    .bss                jg.o
+    0x8021db98   0x00000060   Zero   RW         1857    .bss                c_5.l(libspace.o)(c_5.l)
+    0x8021dbf8   0x00000148   Zero   RW          385    MyStacks            startup.o
+    0x8021dd40   0x00000180   Zero   RW          393    VectStacks          viccontrol.o
+
+
+    Execution Region HEAP_BOTTOM (Base: 0x8021dec0, Size: 0x00000004, Max: 0xffffffff, ABSOLUTE, UNINIT)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x8021dec0   0x00000001   Zero   RW          386    HeapBottom          startup.o
+
+
+    Execution Region STACKS_BOTTOM (Base: 0x8021dec4, Size: 0x00000004, Max: 0xffffffff, ABSOLUTE, UNINIT)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x8021dec4   0x00000001   Zero   RW          387    StackBottom         startup.o
+
+
+    Execution Region HEAPS (Base: 0x84000000, Size: 0x00000000, Max: 0xffffffff, ABSOLUTE, UNINIT)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x84000000   0x00000000   Zero   RW          388    HeapTop             startup.o
+    0x84000000   0x00000000   Zero   RW          389    StacksTop           startup.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+         0          0          0         55          0          0   cmd.o
+         0          0          0        542          0          0   common.o
+       648         20        512        512          0          0   crc.o
+       648         12          0          0          0          0   ds18b20.o
+         0          0          0         96          0          0   ds2460.o
+        44          4          0          0          0          0   gpio.o
+      1592          0          0          0          0          0   gui_basic.o
+        96          8          8          2          0          0   gui_stockc.o
+      1776         52          0         24          0          0   i2c1.o
+      1668         48          0         24          0          0   i2c2.o
+        88          0          0          0          0          0   irq.o
+     31656        696        724        252     245448          0   jg.o
+         0          0          0          0          0          0   keyboard.o
+      1432         36       3840          2          0          0   lcdapp.o
+      1564         20          8          2       3840          0   lcddrive.o
+       940         24      51190          0          0          0   loadbit.o
+        28          0          0          0          0          0   main.o
+       932         24          0          0          0          0   nandflash.o
+       716         32          0          0          0          0   norflash.o
+      2652        112        264         64       5632          0   os_core.o
+       540         88          0          0          0          0   os_cpu_a.o
+       400          4          8          4          0          0   os_cpu_c.o
+         0          0          0          0          0          0   os_flag.o
+      1016         20          0          0          0          0   os_q.o
+       584         16          0          0          0          0   os_sem.o
+       668         24          0          0          0          0   os_task.o
+       232         16          0          0          0          0   os_time.o
+      1900         44          0         96          0          0   pcf8563.o
+      5284        268          0        185       6160          0   rd_data.o
+      2776         12          0          0          0          0   sdcmd.o
+      3184         52         88          0         64          0   sddriver.o
+      4356         92          0          4       4152          0   sdhal.o
+       296         76          0          0        330          0   startup.o
+       164          0          0          0          0          0   storageapp.o
+       344         16          0          0          0          0   target.o
+       740         44          0          0          0          0   task_checknet.o
+       848         76          0          9          0          0   task_data_jg.o
+       352         48          0          8         32          0   task_jg0.o
+      1004        100          0          8         32          0   task_jg1.o
+       188         20          0          8        528          0   task_sd.o
+         0          0          0          4          0          0   task_senduart1.o
+       568         52          0          0          0          0   task_tipo.o
+       332         20          0          0          0          0   task_uart5.o
+      1240         48          0          8          0          0   task_uart5_senddata.o
+        88          0          0          0          0          0   tdc256.o
+       572         64          0         24          0          0   timer0.o
+       464         28          0          9         64          0   uart1.o
+      1104         60          0          0          0          0   uart2.o
+       904         76          0          4         16          0   uart3.o
+      1012         80          0         20       4096          0   uart5.o
+      3036        268          0          0        384          0   viccontrol.o
+      3372        328          0         80      10000          0   w5100.o
+      1936        144          0          0       8848          0   w5100app.o
+       108          8          0          1          0          0   wdt.o
+       732        132         10        232    1776778          0   wt_task.o
+
+    ----------------------------------------------------------------------
+     86824       3412      56704       2292    2066416          0   Object Totals
+         0          0         48          0          0          0   (incl. Generated)
+         0          0          4         13         12          1   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+        92          0          0          0          0          0   __dczerorl2.o
+         8          0          0          0          0          0   __main.o
+       404          4         17          0          0          0   __printf_flags_ss_wp.o
+        60          8          0          0          0          0   __scatter.o
+        40          0          0          0          0          0   __scatter_copy.o
+        44          0          0          0          0          0   __scatter_zi.o
+         8          0          0          0          0          0   _printf_c.o
+        54          0          0          0          0          0   _printf_char.o
+        48          6          0          0          0          0   _printf_char_common.o
+         8          0          0          0          0          0   _printf_d.o
+       116         18          0          0          0          0   _printf_dec.o
+        96          4         40          0          0          0   _printf_hex_int.o
+         8          0          0          0          0          0   _printf_i.o
+       172          0          0          0          0          0   _printf_intcommon.o
+        12          0          0          0          0          0   _printf_l.o
+         8          0          0          0          0          0   _printf_lc.o
+         8          0          0          0          0          0   _printf_o.o
+        88          8          0          0          0          0   _printf_oct_int.o
+        76          0          0          0          0          0   _printf_pad.o
+         0          0          0          0          0          0   _printf_percent.o
+         8          0          0          0          0          0   _printf_percent_end.o
+        82          0          0          0          0          0   _printf_str.o
+        44          0          0          0          0          0   _printf_truncate.o
+         8          0          0          0          0          0   _printf_u.o
+        54          0          0          0          0          0   _printf_wchar.o
+       188          6          8          0          0          0   _printf_wctomb.o
+         8          0          0          0          0          0   _printf_x.o
+        30          0          0          0          0          0   _rserrno.o
+        10          0          0          0          0          0   _sputc.o
+        68          0          0          0          0          0   _wcrtomb.o
+       416          0          0          0          0          0   aeabi_sdiv.o
+        12          0          0          0          0          0   exit.o
+         6          0          0          0          0          0   heapauxi.o
+        72          8        272          0          0          0   lc_ctype_c.o
+         6          0          0          0          0          0   libinit.o
+        20          0          0          0          0          0   libinit2.o
+         2          0          0          0          0          0   libshutdown.o
+         2          0          0          0          0          0   libshutdown2.o
+        12          4          0          0         96          0   libspace.o
+        40          4          0          0          0          0   noretval__2sprintf.o
+        20          4          0          0          0          0   rt_ctype_table.o
+        16          4          0          0          0          0   rt_errno_addr_intlibspace.o
+        16          4          0          0          0          0   rt_fp_status_addr_intlibspace.o
+        16          4          0          0          0          0   rt_locale_intlibspace.o
+        64          0          0          0          0          0   rt_memclr.o
+        84          0          0          0          0          0   rt_memclr_w.o
+       212          0          0          0          0          0   rt_memcpy.o
+       100          0          0          0          0          0   rt_memcpy_w.o
+         0          0          0          0          0          0   rtentry.o
+        44          4          0          0          0          0   rtentry2.o
+         8          0          0          0          0          0   rtentry4.o
+         4          0          0          0          0          0   rtexit.o
+        12          0          0          0          0          0   rtexit2.o
+        44          0          0          0          0          0   rtudiv10.o
+       160          4          0          0          0          0   strcmp.o
+        96          0          0          0          0          0   sys_stackheap_outer.o
+         4          0          0          0          0          0   use_no_semi.o
+       108          4          0          0          0          0   d2f.o
+        28          0          0          0          0          0   dcmpi.o
+       720        140          0          0          0          0   ddiv.o
+       112          4          0          0          0          0   dfix.o
+        96          0          0          0          0          0   dflt_clz.o
+       148          4          0          0          0          0   dleqf.o
+       376         16          0          0          0          0   dmul.o
+       184          0          0          0          0          0   dnaninf.o
+        16          0          0          0          0          0   dretinf.o
+       140          0          0          0          0          0   drleqf.o
+       512         56          0          0          0          0   dsqrt_noumaal.o
+       100          4          0          0          0          0   f2d.o
+       452          8          0          0          0          0   faddsub_clz.o
+        68          4          0          0          0          0   ffix.o
+        88          0          0          0          0          0   fflt_clz.o
+       256          4          0          0          0          0   fmul.o
+       160          0          0          0          0          0   fnaninf.o
+        20          0          0          0          0          0   fpinit.o
+        16          0          0          0          0          0   fretinf.o
+         0          0          0          0          0          0   usenofp.o
+        96          4          0          0          0          0   sqrt.o
+
+    ----------------------------------------------------------------------
+      7048        342        340          0         96          0   Library Totals
+        14          0          3          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+      3338         94        337          0         96       2724   c_5.l
+      3600        244          0          0          0       1940   fz_5s.l
+        96          4          0          0          0         84   m_5s.l
+
+    ----------------------------------------------------------------------
+      7048        342        340          0         96          0   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+     93872       3754      57044       2292    2066512     223868   Grand Totals
+     93872       3754      57044       1172    2066512     223868   ELF Image Totals (compressed)
+     93872       3754      57044       1172          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)               150916 ( 147.38kB)
+    Total RW  Size (RW Data + ZI Data)           2068804 (2020.32kB)
+    Total ROM Size (Code + RO Data + RW Data)     152088 ( 148.52kB)
+
+==============================================================================
+
